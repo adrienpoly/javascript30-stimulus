@@ -25,7 +25,9 @@ CSS, JS Assets are all served using Webpack
   * [Stimulus HTML](https://github.com/adrienpoly/javascript30-stimulus/blob/master/app/views/examples/type_head.html.erb)
   * [Stimulus Controller](https://github.com/adrienpoly/javascript30-stimulus/blob/master/app/javascript/controllers/type_head_controller.js)
 
-# live demo
+# Live demo
+
+👉 https://javascript30-stimulus.herokuapp.com/
 
 # Credits
 
