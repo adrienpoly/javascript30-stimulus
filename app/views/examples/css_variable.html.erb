@@ -1,0 +1,21 @@
+<div  class="css-variable">
+  <div class="controls">
+    <label for="spacing">Spacing:</label>
+    <input data-controller="css-variable" data-action="css-variable#update mousemove->css-variable#update" id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-css-variable-suffix="px">
+
+    <label for="blur">Blur:</label>
+    <input data-controller="css-variable" data-action="css-variable#update mousemove->css-variable#update" id="blur" type="range" name="blur" min="0" max="25" value="0" data-css-variable-suffix="px">
+
+    <label for="base">Base Color</label>
+    <input data-controller="css-variable" data-action="css-variable#update mousemove->css-variable#update" id="base" type="color" name="base" value="#ffc600">
+  </div>
+  <img id="image" src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+</div>
+
+<style>
+  :root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 0px;
+  }
+</style>

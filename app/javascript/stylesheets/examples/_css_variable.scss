@@ -1,0 +1,23 @@
+.css-variable {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+
+  #image {
+    background-color: var(--base, #ffc600);
+    padding: var(--spacing, 10px);
+    filter: blur(var(--blur, 0px));
+  }
+  .hl {
+    color: var(--base, #ffc600);
+  }
+  .controls {
+    margin-bottom: 50px;
+  }
+  input {
+    width: 100px;
+  }
+}

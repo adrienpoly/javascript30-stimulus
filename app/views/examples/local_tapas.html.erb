@@ -1,0 +1,14 @@
+<div data-controller="local-tapas" class="local-tapas">
+  <div class="wrapper">
+    <h2>LOCAL TAPAS</h2>
+    <p></p>
+    <ul class="plates" data-target="local-tapas.itemsList">
+      <!-- <li>Loading Tapas...</li> -->
+    </ul>
+    <form class="add-items" data-target="local-tapas.form">
+      <input data-target="local-tapas.input" type="text" name="item" placeholder="Item Name" required>
+      <input data-action="local-tapas#submit" type="submit" value="+ Add Item">
+    </form>
+    <button data-action="local-tapas#clear" id="clear-list">Clear List</button>
+  </div>
+</div>
